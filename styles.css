@@ -24,6 +24,7 @@ body {
 }
 .data-container {
   background-color: var(--desat-blue);
+  border-radius: 10px 0 0 10px;
 }
 .inner-container {
   padding: 55px;
@@ -79,12 +80,14 @@ body {
   .container-box {
     grid-template-columns: 1fr;
     width: 70%;
+    text-align: center;
   }
   .image-container {
     order: 1;
   }
   .data-container {
     order: 2;
+    border-radius: 0 0 10px 10px;
   }
 
   .image-container > img {
